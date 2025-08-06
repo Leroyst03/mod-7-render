@@ -1,0 +1,21 @@
+{
+  "name": "mi-api-aventura",
+  "version": "1.0.0",
+  "description": "Una sencilla api para mostrar un saludo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/v1/server.js",
+    "test": "echo \"No hay tests definidos\" && exit 0"
+  },
+  "author": "Leroy Sotomayor",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  }
+}
